@@ -9,7 +9,7 @@ Features
   
 Setup Instructions
   1. Clone the repository
-    git clone https://github.com/yourusername/maya-music-bot.git
+    git clone https://github.com/anikhalder54/maya-music-bot.git
     cd maya-music-bot
   2. Install dependencies
      npm install
