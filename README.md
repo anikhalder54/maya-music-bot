@@ -11,7 +11,7 @@ Setup Instructions
   1. Clone the repository
   2. git clone https://github.com/anikhalder54/maya-music-bot.git
   3. cd maya-music-bot
-  4. Install dependencies
+  4. Install dependencies: 
      npm install
   5. Create a .env file in the root directory and add
      DISCORD_TOKEN=your_bot_token_here
