@@ -23,12 +23,13 @@ client.on('messageCreate', async (message) => {
   const command = args.shift().toLowerCase();
   const query = args.join(' ');
 
-  if (command === 'play') {
+   if (command === 'play') {
+    const query = args.join(' ');
     require('./commands/play')(message, query, client);
-  }
+  } else if (command === 'skip') {
+    require('./commands/skip')(message, client);
   } else if (command === 'stop') {
     require('./commands/stop')(message, client);
   }
 });
-
 client.login(process.env.DISCORD_TOKEN);
