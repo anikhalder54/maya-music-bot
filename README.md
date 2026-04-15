@@ -15,7 +15,7 @@ Setup Instructions
      npm install
   5. Create a .env file in the root directory and add
      DISCORD_TOKEN=your_bot_token_here
-  6. Run bot
+  6. Run bot: 
      node index.js
  
 Bot Commands
